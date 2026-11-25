@@ -1,0 +1,25 @@
+CONTROL PRL – PAQUETE INSTALABLE GRATIS
+
+CONTENIDO
+- index.html: aplicación Control PRL completa.
+- manifest.webmanifest: nombre, iconos y configuración de instalación.
+- sw.js: caché básica de la aplicación para abrir su interfaz tras la primera visita.
+- icons/: iconos para Android.
+
+CÓMO PUBLICAR GRATIS CON GITHUB PAGES
+1. Crea una cuenta gratuita en https://github.com si no tienes una.
+2. Crea un repositorio nuevo y público llamado control-prl.
+3. Descomprime este ZIP en el ordenador.
+4. Sube al repositorio TODO el contenido de la carpeta (index.html, manifest.webmanifest, sw.js e icons).
+5. En el repositorio entra en Settings > Pages.
+6. En Build and deployment selecciona Deploy from a branch.
+7. Selecciona la rama main y la carpeta /(root), y guarda.
+8. GitHub mostrará una dirección HTTPS. Ábrela en Chrome o Samsung Internet desde el móvil.
+9. En Android, abre el menú del navegador y elige Instalar aplicación o Añadir a pantalla de inicio.
+
+IMPORTANTE
+- GitHub Pages ofrece alojamiento estático gratuito para este uso, sujeto a sus condiciones y límites.
+- Los datos de Control PRL se guardan en el almacenamiento local del navegador (localStorage). No se sincronizan automáticamente entre móviles ni entre navegadores.
+- No borres los datos del navegador ni desinstales/limpies el almacenamiento sin exportar antes una copia de seguridad.
+- La interfaz y los archivos de la aplicación se pueden almacenar en caché, pero las librerías PDF/Excel externas necesitan conexión a Internet cuando el navegador aún no las haya descargado.
+- El repositorio será público: el código de la aplicación se verá públicamente, pero las encuestas que guardes en el móvil no se suben al repositorio.
